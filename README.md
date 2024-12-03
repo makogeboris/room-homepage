@@ -7,7 +7,6 @@
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
@@ -26,14 +25,12 @@ Users should be able to:
 
 ### Links
 
-- [Live Site]()
+- [Live Site](https://room-homepage-one-gamma.vercel.app/)
 
 ### Built with
 
 - [React](https://reactjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
-
-### What I learned
 
 ## Author
 
