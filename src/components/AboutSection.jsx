@@ -37,7 +37,7 @@ function ImageLight() {
 
 function About() {
   return (
-    <section className="flex-shrink-0 flex-grow space-y-4 self-center px-8 py-12 text-left sm:max-w-none sm:self-start md:max-w-[36.25rem]">
+    <section className="flex-shrink-0 flex-grow space-y-4 self-center px-8 py-12 text-left sm:max-w-none sm:self-start md:max-w-[36.25rem] md:px-12 md:py-14">
       <h3 className="text-base font-bold uppercase tracking-wide text-black">
         About our furniture
       </h3>
