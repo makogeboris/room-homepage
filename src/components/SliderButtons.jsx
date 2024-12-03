@@ -2,6 +2,7 @@ function SliderButtons({ nextSlide, prevSlide }) {
   return (
     <div className="absolute bottom-0 right-0 w-fit md:left-0">
       <button
+        aria-label="Previous slide"
         className="cursor-pointer bg-black px-6 py-5 outline-none transition-all hover:bg-veryDarkGray focus-visible:bg-veryDarkGray focus-visible:outline-dashed focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-black md:px-[2.0625rem] md:py-7"
         onClick={prevSlide}
       >
@@ -15,6 +16,7 @@ function SliderButtons({ nextSlide, prevSlide }) {
         </svg>
       </button>
       <button
+        aria-label="Next slide"
         className="cursor-pointer bg-black px-6 py-5 outline-none transition-all hover:bg-veryDarkGray focus-visible:bg-veryDarkGray focus-visible:outline-dashed focus-visible:outline-2 focus-visible:-outline-offset-2 focus-visible:outline-black md:px-[2.0625rem] md:py-7"
         onClick={nextSlide}
       >
