@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+  @apply relative inline-block text-base font-semibold tracking-tighter text-black outline-none transition-colors after:absolute after:bottom-0 after:left-1/2 after:h-[2px] after:w-0 after:-translate-x-1/2 after:bg-black after:transition-all after:duration-300 hover:after:w-4 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black sm:text-white sm:after:bg-white;
+}
+
+.btnShop {
+  @apply flex w-fit items-center gap-8 text-base font-medium uppercase leading-4 tracking-widest text-black outline-none transition-all hover:text-darkGray focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-black;
+}
