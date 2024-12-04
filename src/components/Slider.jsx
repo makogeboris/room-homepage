@@ -19,6 +19,19 @@ function Slider({ handleShowMenu }) {
     return () => clearInterval(interval)
   }, [])
 
+  useEffect(() => {
+    const handleKeyDown = (e) => {
+      if (e.key === 'ArrowLeft') prevSlide()
+      e.key === 'ArrowRight' && nextSlide()
+    }
+
+    window.addEventListener('keydown', handleKeyDown)
+
+    return () => {
+      window.removeEventListener('keydown', handleKeyDown)
+    }
+  }, [])
+
   return (
     <div className="flex w-full flex-col md:flex-row">
       <Hero
